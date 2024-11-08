@@ -2,6 +2,7 @@
     font-family: Roboto;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .header{
     display: flex;
@@ -47,6 +48,36 @@
 }
 .header .bottom .right img{
     width: 500px;
+    height: auto;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.information .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information .cards .card{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+}
+.information .cards .card img{
+    width: 100px;
     height: auto;
 }
 a{
